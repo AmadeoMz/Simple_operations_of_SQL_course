@@ -6,7 +6,7 @@ original_db=sys.argv[1]
 
 def main():
 	"""This program reads a .db file and stores the numbers
-	greater than 20.0 in a previously created file named backup.db
+	greater than 20.0 in a previously created empty file named backup.db
 
 	"""
 	assert len(sys.argv)==2, 'Introduce a file, e.g. original.db'
